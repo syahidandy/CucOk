@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CuCok</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="jalan">
+        <item>Jl.M.H. Thamrin No.88, Medan</item>
+        <item>Jl.M.H. Thamrin No.89, Medan</item>
+        <item>Jl.M.H. Thamrin No.99, Medan</item>
+        <item>Jl.M.H. Thamrin No.101, Medan</item>
+    </string-array>
+</resources>

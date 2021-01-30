@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/login">
+
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.cucok.login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/daftar"
+        android:name="com.example.cucok.daftar"
+        android:label="activity_daftar"
+        tools:layout="@layout/activity_daftar" />
+</navigation>

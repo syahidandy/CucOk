@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".voucher"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/colorbar"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/vchrback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_leftarrow" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Voucher"
+            android:gravity="center"
+            android:textColor="@color/colorPutih"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF08E"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diskon Ongkir 5rb"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="38dp"
+            android:text="exp 25 Des 2020"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/pakai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="33dp"
+            android:text="Pakai"
+            android:textColor="#f15bb5"
+            android:background="@drawable/ylwbbg"/>
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF08E"
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diskon Ongkir 5rb"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="38dp"
+                android:text="exp 25 Des 2020"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/pakai1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="33dp"
+                android:textColor="#f15bb5"
+                android:background="@drawable/ylwbbg"
+                android:text="Pakai" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF08E"
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diskon Ongkir 5rb"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="38dp"
+                android:text="exp 25 Des 2020"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/pakai3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="33dp"
+                android:text="Pakai"
+                android:textColor="#f15bb5"
+                android:background="@drawable/ylwbbg"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF08E"
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diskon Ongkir 5rb"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="38dp"
+                android:text="exp 25 Des 2020"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/pakai2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="33dp"
+                android:text="Pakai"
+                android:textColor="#f15bb5"
+                android:background="@drawable/ylwbbg"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

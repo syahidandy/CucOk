@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/colorbar"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Location"
+            android:gravity="center"
+            android:textColor="@color/colorPutih"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Jl.M.H. Thamrin No.88, Medan" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hai, Kevin"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah CucOk belum hari ini?"
+        android:textColor="@color/black"
+        android:textSize="15sp">
+    </TextView>
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lndrychs2">
+
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@drawable/b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="7dp"
+            android:text="Bahagia Laundry - Thamrin"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="28dp"
+            android:text="Cuci kering, Cuci setrika, Setrika"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="43dp"
+            android:drawableLeft="@drawable/ic_location"
+            android:text="2.6km"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lndrychs">
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@drawable/a"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="7dp"
+            android:text="Holiday Laundry - Thamrin"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="28dp"
+            android:text="Cuci kering, Cuci setrika, Setrika"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="43dp"
+            android:drawableLeft="@drawable/ic_location"
+            android:text="2.6km"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lndrychs1">
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@drawable/c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="7dp"
+            android:text="Murni Laundry - Merbabu"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="28dp"
+            android:text="Cuci kering, Cuci setrika, Setrika"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="43dp"
+            android:drawableLeft="@drawable/ic_location"
+            android:text="2.6km"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lndrychs3">
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@drawable/c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="7dp"
+            android:text="Lolly88 Laundry - Asia"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="28dp"
+            android:text="Cuci kering, Cuci setrika, Setrika"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="43dp"
+            android:drawableLeft="@drawable/ic_location"
+            android:text="2.6km"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@drawable/b"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="7dp"
+            android:text="Bahagia Laundry - Thamrin"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="28dp"
+            android:text="Cuci kering, Cuci setrika, Setrika"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="43dp"
+            android:drawableLeft="@drawable/ic_location"
+            android:text="2.6km"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingEnd="30dp"
+        android:gravity="center">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nonebg"
+            android:src="@drawable/homeonclick"
+            android:layout_marginStart="30dp"
+            android:contentDescription="Home" />
+        <ImageButton
+            android:id="@+id/orders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nonebg"
+            android:src="@drawable/ordernotclick"
+            android:layout_marginStart="30dp"
+            android:contentDescription="Order" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nonebg"
+            android:src="@drawable/msgnotclick"
+            android:layout_marginStart="30dp"
+            android:contentDescription="Messege" />
+        <ImageButton
+            android:id="@+id/acc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nonebg"
+            android:src="@drawable/accnotclick"
+            android:layout_marginStart="30dp"
+            android:contentDescription="Account" />
+    </LinearLayout>
+</RelativeLayout>

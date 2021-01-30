@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".login"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="80dp"
+        android:text="Sign In"
+        android:textSize="25sp"
+        android:textColor="@color/colorPutih"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@color/colorbar"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_logo"/>
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="cucok123@gmail.com"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="15dp"
+        android:background="@drawable/ylwbg"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_pass"
+        android:drawablePadding="15dp"
+        android:background="@drawable/ylwbg"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:text="Forgot Password"
+        android:gravity="right"/>
+
+    <Button
+        android:id="@+id/signin"
+        android:text="Sign In"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:textColor="#f15bb5"
+        android:background="@drawable/ylwbg"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/signupwdw"
+        android:text="Create an Account"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:textColor="#f15bb5"
+        android:background="@drawable/ylwbg"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
